@@ -271,6 +271,9 @@ a {
     font-weight: 500;
     line-height: 26px;
     padding: 6px 22px;
+    transition-property: color, box-shadow;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 .all-button:active {
     color: #2196f3;
@@ -286,6 +289,9 @@ a {
     font-weight: 500;
     line-height: 26px;
     padding: 6px 22px;
+    transition-property: color, box-shadow;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 .app-button {
     box-sizing: content-box;
@@ -297,6 +303,9 @@ a {
     font-weight: 500;
     line-height: 26px;
     padding: 6px 22px;
+    transition-property: color, boxshadow;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 .design-button {
     box-sizing: content-box;
@@ -309,6 +318,9 @@ a {
     font-weight: 500;
     line-height: 26px;
     padding: 6px 22px;
+    transition-property: color, boxshadow;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 .marketing-button {
     box-sizing: content-box;
@@ -321,6 +333,9 @@ a {
     font-weight: 500;
     line-height: 26px;
     padding: 6px 30px;
+    transition-property: color, boxshadow;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 
 .all-button:hover,
@@ -611,7 +626,7 @@ a {
     display: flex;
     position: absolute;
     top: 36px;
-    right: 40px;
+    right: -7px;
     align-items: center;
     width: 200px;
     height: 50px;
@@ -995,6 +1010,10 @@ a {
     height: 44px;
     border-radius: 22px;
     background-color: #75757552;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+
 }
 .footer-icons-list .footer-icon svg {
     width: 20px;
